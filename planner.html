@@ -1,0 +1,79 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nafisat's Academic Planner</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>My Academic Planner</h1>
+
+        <p>Organise your studies. Manage your tasks. Achieve your goals.</p>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Projects</a>
+            <a href="planner.html">Academic Planner</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="planner-section">
+
+            <h2>My Academic Tasks</h2>
+
+            <p>
+                Use this planner to organise your academic
+                activities, assignments and study schedule.
+            </p>
+
+            <h3>Add a New Task</h3>
+
+            <div class="task-input-container">
+
+                <input
+                    type="text"
+                    id="taskInput"
+                    placeholder="Enter your academic task"
+                    aria-label="Enter a new academic task"
+                >
+
+                <button type="button" onclick="addTask()">
+                    Add Task
+                </button>
+
+            </div>
+
+            <h3>My Task List</h3>
+
+            <ul id="taskList">
+                <!-- Tasks will be displayed here using JavaScript -->
+            </ul>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 Nafisat's Cybersecurity Portfolio.
+            All rights reserved.
+        </p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
